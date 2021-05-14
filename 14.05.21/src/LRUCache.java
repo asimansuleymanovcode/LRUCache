@@ -1,7 +1,7 @@
 import java.util.Iterator;
 
 public class LRUCache<T> {
-    private static int count=0;
+    private int count=0;
     private final int size;
 
     private Node<T> head;
